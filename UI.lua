@@ -17,8 +17,6 @@ local Library = {
 }
 
 
-
-
 function Library:New(option)
 	option = type(option) == "table" and option or {}
 	option.title = option.title or "BABAWARE"
